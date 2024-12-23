@@ -9,7 +9,7 @@
         :stroke-width="2"
         :stroke-color="'#343E4F'"
       />
-      <span class="vdb-c-font-medium vdb-c-text-black">Director's Log</span>
+      <span class="vdb-c-font-medium vdb-c-text-black">Agent's Log</span>
     </button>
     <transition
       enter-active-class="vdb-c-transition-all vdb-c-duration-300 vdb-c-ease-out"

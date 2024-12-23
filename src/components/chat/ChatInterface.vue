@@ -214,7 +214,7 @@ import QueryIcon from "../icons/Query.vue";
 const props = defineProps({
   chatInputPlaceholder: {
     type: String,
-    default: "Ask Director",
+    default: "Ask Agent",
   },
   customChatHook: {
     type: Function,
