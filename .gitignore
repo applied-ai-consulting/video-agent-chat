@@ -1,8 +1,6 @@
 *.log
 .DS_Store
 node_modules
-dist
-types
 
 packages/docs/.vitepress/cache
 packages/*/dist
