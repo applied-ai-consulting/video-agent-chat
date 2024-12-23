@@ -84453,7 +84453,7 @@ const _sfc_main$3 = {
 const _hoisted_1$1 = {
   width: "150",
   height: "39",
-  viewBox: "0 0 550 550",
+  viewBox: "0 0 1250 1050",
   fill: "none",
   xmlns: "http://www.w3.org/2000/svg"
 };
