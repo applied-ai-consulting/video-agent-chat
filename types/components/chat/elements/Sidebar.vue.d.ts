@@ -5,10 +5,10 @@ declare const _default: import("vue").DefineComponent<{}, {
     triggerExploreAgentsFocusAnimation: () => void;
     toggleSidebar: () => void;
     $emit: (event: "create-new-session" | "session-click" | "delete-session" | "collection-click" | "agent-click", ...args: any[]) => void;
-    collections: unknown[];
-    sessions: unknown[];
-    agents: unknown[];
     status: string;
+    agents: unknown[];
+    sessions: unknown[];
+    collections: unknown[];
     newSessionButtonStatus: string;
     config: Record<string, any>;
     selectedCollection: string;
@@ -20,10 +20,10 @@ declare const _default: import("vue").DefineComponent<{}, {
     initialCollectionsOpen: boolean;
     sidebarSections: unknown[];
     $props: {
-        readonly collections?: unknown[] | undefined;
-        readonly sessions?: unknown[] | undefined;
-        readonly agents?: unknown[] | undefined;
         readonly status?: string | undefined;
+        readonly agents?: unknown[] | undefined;
+        readonly sessions?: unknown[] | undefined;
+        readonly collections?: unknown[] | undefined;
         readonly newSessionButtonStatus?: string | undefined;
         readonly config?: Record<string, any> | undefined;
         readonly selectedCollection?: string | undefined;

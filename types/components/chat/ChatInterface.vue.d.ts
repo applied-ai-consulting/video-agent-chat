@@ -12,19 +12,19 @@ declare const _default: import("vue").DefineComponent<{}, {
     registerMessageHandler: (contentType: any, handler: any) => void;
     uploadMedia: any;
     $emit: (event: never, ...args: any[]) => void;
-    size: string;
-    headerConfig: Record<string, any>;
     chatInputPlaceholder: string;
     customChatHook: Function;
     chatHookConfig: Record<string, any>;
+    size: string;
+    headerConfig: Record<string, any>;
     sidebarConfig: Record<string, any>;
     defaultScreenConfig: Record<string, any>;
     $props: {
-        readonly size?: string | undefined;
-        readonly headerConfig?: Record<string, any> | undefined;
         readonly chatInputPlaceholder?: string | undefined;
         readonly customChatHook?: Function | undefined;
         readonly chatHookConfig?: Record<string, any> | undefined;
+        readonly size?: string | undefined;
+        readonly headerConfig?: Record<string, any> | undefined;
         readonly sidebarConfig?: Record<string, any> | undefined;
         readonly defaultScreenConfig?: Record<string, any> | undefined;
     };

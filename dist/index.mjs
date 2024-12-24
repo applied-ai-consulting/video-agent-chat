@@ -20938,7 +20938,7 @@ function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
   ]);
 }
 const ChevronDown = /* @__PURE__ */ _export_sfc$1(_sfc_main$E, [["render", _sfc_render$j]]);
-const ChatMessageSteps_vue_vue_type_style_index_0_scoped_8e73daeb_lang = "";
+const ChatMessageSteps_vue_vue_type_style_index_0_scoped_548d87f7_lang = "";
 const _hoisted_1$x = { class: "vdb-c-flex vdb-c-flex-col vdb-c-gap-16" };
 const _hoisted_2$k = {
   key: 0,
@@ -21001,7 +21001,7 @@ const _sfc_main$D = {
             "stroke-width": 2,
             "stroke-color": "#343E4F"
           }, null, 8, ["class"]),
-          _cache[0] || (_cache[0] = createElementVNode("span", { class: "vdb-c-font-medium vdb-c-text-black" }, "Agent's Log", -1))
+          _cache[0] || (_cache[0] = createElementVNode("span", { class: "vdb-c-font-medium vdb-c-text-black" }, "Video Analytics Agent's Log", -1))
         ]),
         createVNode(Transition, {
           "enter-active-class": "vdb-c-transition-all vdb-c-duration-300 vdb-c-ease-out",
@@ -21050,7 +21050,7 @@ const _sfc_main$D = {
     };
   }
 };
-const ChatMessageSteps = /* @__PURE__ */ _export_sfc$1(_sfc_main$D, [["__scopeId", "data-v-8e73daeb"]]);
+const ChatMessageSteps = /* @__PURE__ */ _export_sfc$1(_sfc_main$D, [["__scopeId", "data-v-548d87f7"]]);
 const ChatMessage_vue_vue_type_style_index_0_lang = "";
 const _hoisted_1$w = { class: "message-width" };
 const _hoisted_2$j = {
@@ -82538,7 +82538,7 @@ const _sfc_main$m = {
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", _hoisted_1$k, [
         createElementVNode("div", _hoisted_2$c, [
-          _cache[2] || (_cache[2] = createElementVNode("h1", { class: "vdb-c-mb-24 vdb-c-text-5xl vdb-c-font-extrabold vdb-c-text-vdb-darkishgrey" }, " Welcome! ", -1)),
+          _cache[2] || (_cache[2] = createElementVNode("h1", { class: "vdb-c-mb-24 vdb-c-text-5xl vdb-c-font-extrabold vdb-c-text-vdb-darkishgrey" }, " Welcome to Video Analytics Agent! ", -1)),
           createElementVNode("div", _hoisted_3$b, [
             createElementVNode("div", _hoisted_4$8, [
               createElementVNode("div", _hoisted_5$7, [
@@ -84322,7 +84322,7 @@ const _sfc_main = {
   props: {
     chatInputPlaceholder: {
       type: String,
-      default: "Ask Agent"
+      default: "Ask Video Analytics Agent"
     },
     customChatHook: {
       type: Function,
