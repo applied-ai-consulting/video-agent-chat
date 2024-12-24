@@ -243,17 +243,17 @@ const props = defineProps({
     type: Object,
     default: () => ({
       icon: DirectorIcon,
-      links: [
-        {
-          href: "https://www.youtube.com/playlist?list=PLhxAMFLSSK039xl1UgcZmoFLnb-qNRYQw",
-          text: "Watch Demos",
-          icon: ExternalLink,
-        },
-        {
-          href: "https://console.videodb.io",
-          text: "VideoDB Console",
-        },
-      ],
+      // links: [
+      //   {
+      //     href: "https://www.youtube.com/playlist?list=PLhxAMFLSSK039xl1UgcZmoFLnb-qNRYQw",
+      //     text: "Watch Demos",
+      //     icon: ExternalLink,
+      //   },
+      //   {
+      //     href: "https://console.videodb.io",
+      //     text: "VideoDB Console",
+      //   },
+      // ],
     }),
   },
   defaultScreenConfig: {

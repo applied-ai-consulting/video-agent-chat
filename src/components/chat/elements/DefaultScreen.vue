@@ -13,12 +13,12 @@
             v-if="headerText"
             class="vdb-c-flex vdb-c-w-full vdb-c-items-center vdb-c-justify-between"
           >
-            <span
+            <!-- <span
               class="vdb-c-line-clamp-2 vdb-c-inline-block vdb-c-max-w-[60%] vdb-c-font-bold md:vdb-c-line-clamp-none md:vdb-c-max-w-[80%] md:vdb-c-font-extrabold vdb-c-text-orange"
               :title="headerText"
             >
               {{ headerText }}
-            </span>
+            </span> -->
             <Button
               v-if="headerConfig.uploadButton"
               @click="$emit('upload-button-click')"
@@ -46,7 +46,7 @@
     </slot>
 
     <!-- Action Cards -->
-    <div
+    <!-- <div
       class="fade-in-anim vdb-c-flex vdb-c-grow vdb-c-items-start vdb-c-justify-center vdb-c-pt-4"
     >
       <div
@@ -118,121 +118,7 @@
           </p>
         </div>
       </div>
-    </div>
-
-    <!-- Demo/Preview Videos -->
-    <div class="vdb-c-flex vdb-c-flex-col vdb-c-gap-12">
-      <!-- Divider -->
-      <div class="vdb-c-mt-12 vdb-c-h-1 vdb-c-w-full vdb-c-bg-[#EFEFEF]"></div>
-
-      <!-- Headers -->
-      <div
-        class="vdb-c-text-base vdb-c-font-normal vdb-c-text-vdb-darkishgrey md:vdb-c-text-xl"
-      >
-        <!-- Demo Videos Header -->
-        <div v-if="showDemoVideos">
-          <div
-            class="vdb-c-mb-12 vdb-c-flex vdb-c-items-center vdb-c-justify-between vdb-c-gap-4 md:vdb-c-mb-16"
-          >
-            <span
-              class="vdb-c-w-1/2 vdb-c-text-sm vdb-c-font-semibold md:vdb-c-text-lg"
-            >
-              See agents in action:
-            </span>
-
-            <div class="vdb-c-flex vdb-c-items-center vdb-c-gap-16">
-              <Button variant="secondary">
-                <div
-                  class="vdb-c-flex vdb-c-items-center vdb-c-justify-between vdb-c-gap-6"
-                  @click="
-                    $emit(
-                      'view-all-videos-click',
-                      'https://www.youtube.com/playlist?list=PLhxAMFLSSK039xl1UgcZmoFLnb-qNRYQw',
-                    )
-                  "
-                >
-                  <div class="vdb-c-text-sm vdb-c-font-medium">
-                    <span class="vdb-c-hidden md:vdb-c-block">
-                      Watch more demos</span
-                    >
-                    <span class="vdb-c-block md:vdb-c-hidden">
-                      More Demos
-                    </span>
-                  </div>
-                  <ExternalLinkIcon />
-                </div>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Preview Videos Header -->
-        <div v-else>
-          <div
-            v-if="collectionName"
-            class="vdb-c-flex vdb-c-items-center vdb-c-justify-between vdb-c-gap-4"
-          >
-            <span class="vdb-c-w-4/6 vdb-c-text-sm md:vdb-c-text-xl">
-              <b> Videos </b> in {{ collectionName }}
-            </span>
-            <div class="vdb-c-flex vdb-c-items-center vdb-c-gap-16">
-              <Button
-                variant="secondary"
-                @click="$emit('view-all-videos-click')"
-                class="!vdb-c-px-8 !vdb-c-py-10"
-              >
-                <div
-                  class="vdb-c-flex vdb-c-items-center vdb-c-justify-between vdb-c-gap-6"
-                >
-                  <div class="vdb-c-text-sm vdb-c-font-medium">View all</div>
-                  <ChevronRightCircled class="vdb-c-hidden md:vdb-c-block" />
-                </div>
-              </Button>
-            </div>
-          </div>
-          <div v-else>
-            <div
-              class="vdb-c-inline-block vdb-c-h-[3rem] vdb-c-w-full vdb-c-animate-pulse vdb-c-rounded vdb-c-bg-roy"
-            ></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Videos -->
-      <div
-        v-if="previewVideos"
-        class="vdb-c-mb-24 vdb-c-grid vdb-c-grid-cols-12 vdb-c-gap-12 sm:vdb-c-mb-32 sm:vdb-c-gap-18"
-      >
-        <div
-          v-for="(item, index) in previewVideos"
-          :key="`post-${item.id}`"
-          class="vdb-c-col-span-12 sm:vdb-c-col-span-6 md:vdb-c-col-span-4 lg:vdb-c-col-span-3"
-        >
-          <video-card
-            border-class="sm:vdb-c-hidden"
-            :item="item"
-            :border-b="true"
-            :index="index"
-            :variant="showDemoVideos ? 'hide-title' : 'default'"
-            @video-click="$emit('video-click', item)"
-          />
-        </div>
-      </div>
-
-      <!-- Videos Loader -->
-      <div
-        v-else
-        class="vdb-c-mb-24 vdb-c-grid vdb-c-grid-cols-12 vdb-c-gap-24 sm:vdb-c-mb-32 sm:vdb-c-gap-32"
-      >
-        <div
-          v-for="(item, index) in [1, 2, 3, 4]"
-          :key="`post-loading-${index}`"
-          class="vdb-c-col-span-12 sm:vdb-c-col-span-6 md:vdb-c-col-span-4 lg:vdb-c-col-span-3"
-        >
-          <video-card-loader :index="index" />
-        </div>
-      </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

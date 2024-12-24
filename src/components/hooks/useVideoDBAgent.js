@@ -102,7 +102,7 @@ export function useVideoDBAgent(config) {
       Promise.all([
         fetchCollections().then((res) => {
           const defaultCollection = res.data[0];
-          defaultCollection.name = "VideoDB Default Collection";
+          defaultCollection.name = "Video Analytics Agent";
           activeCollectionData.value = defaultCollection;
           collections.value = [defaultCollection, ...res.data.slice(1)];
         }),
