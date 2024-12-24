@@ -46,7 +46,7 @@
     </slot>
 
     <!-- Action Cards -->
-    <div
+    <!-- <div
       class="fade-in-anim vdb-c-flex vdb-c-grow vdb-c-items-start vdb-c-justify-center vdb-c-pt-4"
     >
       <div
@@ -118,7 +118,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Demo/Preview Videos -->
     <div class="vdb-c-flex vdb-c-flex-col vdb-c-gap-12">
       <!-- Divider -->
