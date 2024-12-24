@@ -82404,7 +82404,7 @@ function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
   ]));
 }
 const StarIcon = /* @__PURE__ */ _export_sfc$1(_sfc_main$p, [["render", _sfc_render$c], ["__scopeId", "data-v-5fe74808"]]);
-const DefaultScreen_vue_vue_type_style_index_0_scoped_1f1d4d39_lang = "";
+const DefaultScreen_vue_vue_type_style_index_0_scoped_7032e150_lang = "";
 const _hoisted_1$m = { class: "vdb-c-flex vdb-c-h-full vdb-c-w-5/6 vdb-c-flex-col vdb-c-gap-32 vdb-c-p-16 md:vdb-c-p-32" };
 const _hoisted_2$e = { class: "vdb-c-flex vdb-c-flex-col vdb-c-gap-8" };
 const _hoisted_3$d = {
@@ -82469,7 +82469,7 @@ const _sfc_main$o = {
     },
     showDemoVideos: {
       type: Boolean,
-      default: true
+      default: false
     },
     previewVideos: {
       type: Array,
@@ -82640,7 +82640,7 @@ const _sfc_main$o = {
     };
   }
 };
-const DefaultScreen = /* @__PURE__ */ _export_sfc$1(_sfc_main$o, [["__scopeId", "data-v-1f1d4d39"]]);
+const DefaultScreen = /* @__PURE__ */ _export_sfc$1(_sfc_main$o, [["__scopeId", "data-v-7032e150"]]);
 const SetupCard_vue_vue_type_style_index_0_scoped_e4a604fb_lang = "";
 const _hoisted_1$l = { class: "vdb-c-flex vdb-c-flex-col vdb-c-gap-16" };
 const _hoisted_2$d = { class: "vdb-c-flex vdb-c-flex-1 vdb-c-flex-col vdb-c-justify-between" };

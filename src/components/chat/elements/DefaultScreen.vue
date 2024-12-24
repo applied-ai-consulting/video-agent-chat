@@ -228,7 +228,7 @@ const props = defineProps({
   },
   showDemoVideos: {
     type: Boolean,
-    default: true,
+    default: false,
   },
   previewVideos: {
     type: Array,

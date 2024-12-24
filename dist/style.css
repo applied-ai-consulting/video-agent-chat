@@ -5017,18 +5017,18 @@ svg path[data-v-5fe74808] {
   fill: currentColor;
 }
 
-.fade-enter-active[data-v-1f1d4d39],
-.fade-leave-active[data-v-1f1d4d39] {
+.fade-enter-active[data-v-7032e150],
+.fade-leave-active[data-v-7032e150] {
   transition: opacity 0.2s ease;
 }
-.fade-enter-from[data-v-1f1d4d39],
-.fade-leave-to[data-v-1f1d4d39] {
+.fade-enter-from[data-v-7032e150],
+.fade-leave-to[data-v-7032e150] {
   opacity: 0;
 }
-.fade-in-anim[data-v-1f1d4d39] {
-  animation: fadeIn-1f1d4d39 0.3s ease-in-out;
+.fade-in-anim[data-v-7032e150] {
+  animation: fadeIn-7032e150 0.3s ease-in-out;
 }
-@keyframes fadeIn-1f1d4d39 {
+@keyframes fadeIn-7032e150 {
 from {
     opacity: 0;
 }
@@ -5036,7 +5036,7 @@ to {
     opacity: 1;
 }
 }
-.action-card-shadow[data-v-1f1d4d39] {
+.action-card-shadow[data-v-7032e150] {
   box-shadow: 0px 15px 29px 0px #0000004d;
 }
 
