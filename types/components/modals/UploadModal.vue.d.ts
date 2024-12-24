@@ -1,5 +1,5 @@
 declare const _default: import("vue").DefineComponent<{}, {
-    $emit: (event: "upload" | "cancel-upload", ...args: any[]) => void;
+    $emit: (event: "cancel-upload" | "upload", ...args: any[]) => void;
     collections: unknown[];
     showUploadDialog: boolean;
     defaultSelectedCollectionId: string;
